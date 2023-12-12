@@ -1,0 +1,5 @@
+1. open a folder
+2. termminaldan - git clone link
+3. git add . - bu faylarni portga qoshadi
+4. git commit -m 'buni ichida komentariya qoshasan qanaqa proyektligi haqida'
+5. git push origin main == bu proyektni faylarini yuboradi
