@@ -116,8 +116,7 @@ nav {
 
 
 .section {
-    width: 1440px;
-    height: 2015px;
+    
 }
 
 .popular_items {
@@ -248,6 +247,8 @@ nav {
     justify-content: center;
     width: 206px;
     height: 75px;
+    border: solid #EAE9EF 1px;
+    margin: 3px;
 }
 
 .brands_logo2 {
@@ -261,10 +262,11 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 24px;
-    width: 1440px;
-    height: 436px;
-    background-color: #e0e8ff;
     margin-top: 50px;
+}
+
+.section6 {
+    background-color: #e0e8ff;
 }
 
 .advirtisin_item1 {
@@ -366,4 +368,24 @@ nav {
 
 span {
     font-size: 16px;
+}
+
+.nav_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    margin-top: 50px;
+}
+
+.section3 {
+
 }
