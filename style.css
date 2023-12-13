@@ -149,8 +149,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 60px;
-    background-color: #F6F6F6;
+    gap: 10px;
+    background-color: #fff;
 }
 
 .xit_items_item {
@@ -182,22 +182,7 @@ nav {
     height: 295px;
 }
 
-.pokupka_title h2{
-    color: #5C596D;
-    margin: 50px 0 50px 0;   
-}
 
-.pokupka {
-    display: flex;
-    align-items: center;
-    gap: 100px;
-}
-
-.pokupka_item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 .brands_title h2{
     color: #5C596D;
@@ -386,6 +371,82 @@ span {
     margin-top: 50px;
 }
 
-.section3 {
+.section1 {
+    padding-top: 50px;
+}
 
+.xit_text {
+    color: #9c9aa7;
+}
+
+.xit_text h5, h4, img{
+    margin-top: 10px;
+}
+
+.xit_text h4 {
+    color: #000;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 131px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #1b5bf7;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+.buttons a:hover {
+    background-color: #f6f6f6;
+    color: #8f8d9a;
+}
+
+.buttons_images {
+    display: flex;
+}
+
+.section2 {
+    background-color: #F6F6F6;
+}
+
+.section4 {
+    padding-top: 80px;
+}
+
+.pokupka {
+    display: flex;
+    background-color: #f6f6f6;
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.pokupka_title {
+    color: #9c9aa7;
+}
+
+.pokupka_item {
+    color: #9c9aa7;
+}
+
+.pokupka_item h5 {
+    margin-top: 10px;
+}
+
+.pokupka_item h4 {
+    color: #000;
+}
+
+.pokupka_item img:hover {
+    background-color: yellow;
 }
