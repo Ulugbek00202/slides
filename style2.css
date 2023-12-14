@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 307px;
+    height: 40px;
+    gap: 12px;
+}
+
+.nav1 ul li {
+    list-style: none;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: #5C596D;
+}
+
+
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 371px;
+    height: 40px;
+    gap: 32px;
+}
+
+.nav2 ul li {
+    list-style: none;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: #5C596D;
+    padding: 0 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 72px;
+}
+
+.head_logo {
+    width: 152.02px;
+    height: 52px;
+    gap: 3px;
+}
+
+.head_search input{
+    width: 677px;
+    height: 48px;
+    padding-left: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.korzina  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav {
+    background-color: #F8F8F8;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    height: 40px;
+    gap: 24px;
+}
+
+.nav ul li {
+    list-style: none;
+    padding: 8px 16px 8px 16px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #5C596D;
+}
+
+.nav_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.phone_information {
+    padding-bottom: 62px;
+    
+}
+
+.phone_information_title {
+    width: 1296px;
+    /* height: 490px; */
+}
+
+.telefon {
+    width: 367.2px;
+    height: 122px;
+}
+
+.glavniy{
+    width: 344px;
+    height: 22px;
+    display: flex;
+    gap: 8px;
+}
+
+.glavniy h2, .glavniy h3, .glavniy h4 {
+    font-size: 16px;
+    color: #9692B0;
+    
+}
+
+.glavniy h2 {
+    border-right: solid 1px #9692B0;
+    padding-right: 10px;
+}
+
+.glavniy h3 {
+    border-right: solid 1px #9692B0;
+    padding-right: 10px;
+}
+
+.phone_title {
+    margin-top: 10px;
+}
+
+.phone_title h1{
+    font-size: 24px;
+    color: #5C596D;
+}
+
+.otziv {
+    margin-top: 15px;
+    display: flex;
+    gap: 16px;
+}
+
+.otziv_star img{
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.otziv h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 104px;
+    height: 32px;
+    font-size: 13px;
+    color: #1D1A2F;
+    background-color: #f6f6f6;
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+.honor {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.honors {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: solid 1px red;
+}
+
+.honor_50 {
+    width: 345px;
+    display: flex;
+    gap: 16px;
+    border-right: solid 1px ;
+}
+
+.honor_img {
+    width: 244px;
+    height: 323px;
+    overflow: hidden;
+}
+
+.honor_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.honor_icons img {
+    margin: 0 5px;
+}
+
+.honor_sale {
+    width: 210px;
+}
+
+.honor_sale h1 {
+    font-size: 14px;
+    color: #1D1A2F;
+}
+
+.honor_text {
+    width: 119px;
+    height: 71px;
+    margin-top: 20px;
+}
+
+.honor_text h2 {
+    font-size: 16px;
+    color: #9692B0;
+}
+
+.honor_color {
+    display: flex;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+.honor_color h3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff4141;
+}
+
+.honor_color h3:hover {
+    outline: 1px solid rgb(61, 61, 229);
+    outline-offset: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.honor_color h3:nth-child(2) {
+    background-color: #888888;
+}
+
+.honor_color h3:nth-child(3) {
+    background-color: #3596ef;
+}
+
+.honor_memory {
+    width: 210px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.honor_memory h1 {
+    font-size: 16px;
+    color: #9692B0;
+}
+
+.gb {
+    width: 210px;
+    height: 36px;
+    display: flex;
+    gap: 4px;
+}
+
+.gb h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 36px;
+    font-size: 16px;
+    color: #9692B0;
+    border: solid 1px #f8f8fa;
+    margin-top: 5px;
+}
+
+.gb h2:hover {
+    background-color: #f2f2f2;
+}
+
+.honor_sim {
+    margin-top: 15px;
+}
+
+.honor_sim h1 {
+    font-size: 16px;
+    color: #9692B0;
+}
+
+.honor_region {
+    display: flex;
+    margin-top: 10px;
+    gap: 8px    ;
+}
+
+.honor_region h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #9692B0;
+    width: 65px;
+    height: 36px;
+    border: solid 1px #f8f8fa;
+}
+
+.honor_region h2:hover {
+    background-color: #f2f2f2;
+}
