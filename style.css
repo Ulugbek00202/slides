@@ -145,13 +145,6 @@ nav {
     margin: 50px 0 50px 0;
 }
 
-.xit_items {
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
-    gap: 10px;
-    /* background-color: #fff; */
-}
 
 .xit_items_item {
     background-color: #fff;
@@ -567,7 +560,7 @@ span {
     color: #fff;
     border: none;
     border-radius: 24px;
-    transition: all 1s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .hit_sales_button button span{
@@ -575,8 +568,8 @@ span {
 }
 
 .hit_sales button:hover {
-    background-color: #e0e8ff;
-    color: #7199fa;
+    background-color: #000;
+    color: #fff;
 }
 
 .hit_sales button img {
