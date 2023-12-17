@@ -92,6 +92,15 @@ nav {
     flex-direction: column;
 }
 
+.korzina a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #3a3d3a;
+}
+
 .nav {
     background-color: #F8F8F8;
 }
