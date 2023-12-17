@@ -468,8 +468,12 @@ nav {
     text-decoration: none;
 }
 
+.tovar_items a:nth-child(3) {
+    color: #0c4bea;
+}
+
 .tovar_items a:hover {
-    color: #1B5BF7;
+    color: #0e2e86;
 }
 
 .tovar_items a:nth-child(1) {
