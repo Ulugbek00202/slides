@@ -230,6 +230,7 @@ nav {
     width: 244px;
     height: 323px;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .honor_img img{
