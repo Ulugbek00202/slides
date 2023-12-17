@@ -487,145 +487,203 @@ nav {
     height: 52px;
 }
 
-.tover_lorem {
-    margin-top: 30px;
-    width: 800px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.magazin_adress {
+    margin-top: 40px;
 }
 
-.tover_lorem p {
+.magazines {
+    display: flex;
+}
+
+.magazines h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
     color: #5C596D;
-    font-size: 15px;
+    border: solid 2px #f7f7f7;
+    border-right: none;
 }
 
-.tover_lorem h5 {
-    color: #1B5BF7;
-    font-size: 15px;
+.magazines h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 550px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    margin-top: 10px;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
 }
 
-.tovar_pamit {
-    margin-top: 50px;
+.magazines h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
 }
 
-.tovar_pamit_izmireniy {
-    width: 797px;
-    height: 20px;
+.magazines h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+}
+
+
+
+.samarqand {
     display: flex;
 }
 
-.tovar_pamit_izmireniy h1 {
-    color: #9692B0;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.tovar_pamit_izmireniy p {
-    width: 571px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_izmireniy h2 {
-    color: #1D1A2F;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.tovar_pamit_massa {
-    width: 797px;
-    height: 20px;
+.samarqand h1 {
     display: flex;
-    margin-top: 30px;
-}
-
-.tovar_pamit_massa h1 {
-    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    color: #9692B0;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
 }
 
-.tovar_pamit_massa p {
-    width: 700px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_massa h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_batareya {
-    width: 797px;
-    height: 20px;
+.samarqand h2 {
     display: flex;
-    margin-top: 30px;
-}
-
-.tovar_pamit_batareya h1 {
-    font-size: 15px;
+    align-items: center;
+    padding-left: 20px;
+    width: 550px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    color: #9692B0; 
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
 }
 
-.tovar_pamit_batareya p {
-    width: 305px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_batareya h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_sistema {
-    width: 797px;
-    height: 20px;
+.samarqand h3 {
     display: flex;
-    margin-top: 30px;
-}
-
-.tovar_pamit_sistema h1 {
-    font-size: 15px;
+    align-items: center;
+    padding-left: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    color: #9692B0;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
 }
 
-.tovar_pamit_sistema h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_sistema p {
-    width: 555px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_memory {
-    width: 797px;
-    height: 20px;
+.samarqand h4 {
     display: flex;
-    margin-top: 30px;
-}
-
-.tovar_pamit_memory h1 {
-    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    color: #9692B0;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-top: none;
 }
 
-.tovar_pamit_memory p {
-    width: 250px;
-    border-bottom: dashed 1px #9692B0;
+.bunyodkor {
+    display: flex;
 }
 
-.tovar_pamit_memory h2 {
-    font-size: 15px;
+.bunyodkor h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
     font-weight: 400;
-    color: #1D1A2F;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
 }
+
+.bunyodkor h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 550px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
+}
+
+.bunyodkor h3 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-right: none;
+    border-top: none;
+}
+
+.bunyodkor h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C596D;
+    border: solid 2px #f7f7f7;
+    border-top: none;
+}
+
+
+
+
 
 
 

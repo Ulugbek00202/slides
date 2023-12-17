@@ -487,145 +487,135 @@ nav {
     height: 52px;
 }
 
-.tover_lorem {
+
+
+
+
+
+
+.coments {
     margin-top: 30px;
-    width: 800px;
 }
 
-.tover_lorem p {
-    color: #5C596D;
-    font-size: 15px;
+.napisat_otziv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: #f4f7ff;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.tover_lorem h5 {
+.napisat_otziv h1 {
+    font-size: 14px;
     color: #1B5BF7;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 10px;
 }
 
-.tovar_pamit {
-    margin-top: 50px;
+.adrian {
+    margin-top: 20px;
+    width: 742px;
+    height: 188px;
+    background-color: #f6f6f6;
 }
 
-.tovar_pamit_izmireniy {
-    width: 797px;
-    height: 20px;
+.adrian_item {
+    width: 663px;
+    height: 156px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.adrian_name {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.tovar_pamit_izmireniy h1 {
-    color: #9692B0;
+.adrian_name h2 {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
+    color: #3C3C4380;
 }
 
-.tovar_pamit_izmireniy p {
-    width: 571px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_izmireniy h2 {
-    color: #1D1A2F;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-.tovar_pamit_massa {
-    width: 797px;
-    height: 20px;
+.adrian_text {
     display: flex;
+    align-items: center;
+    width: 161px;
+    height: 40px;
+    gap: 8px;
+}
+
+.adrian_text img {
+    width: 40px;
+    height: 40px;
+}
+
+.adrian_text h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C596D;
+}
+
+.adrian_information {
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+}
+
+.adrian_information p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #5C596D;
+}
+
+.adrian_likes {
     margin-top: 30px;
-}
-
-.tovar_pamit_massa h1 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #9692B0;
-}
-
-.tovar_pamit_massa p {
-    width: 700px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_massa h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_batareya {
-    width: 797px;
-    height: 20px;
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 123px;
+    height: 24px;
 }
 
-.tovar_pamit_batareya h1 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #9692B0; 
-}
-
-.tovar_pamit_batareya p {
-    width: 305px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_batareya h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_sistema {
-    width: 797px;
-    height: 20px;
+.like {
     display: flex;
-    margin-top: 30px;
-}
+    align-items: center;
+    gap: 8px;
+    width: 48px;
+    height: 24px;
+} 
 
-.tovar_pamit_sistema h1 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #9692B0;
-}
-
-.tovar_pamit_sistema h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
-
-.tovar_pamit_sistema p {
-    width: 555px;
-    border-bottom: dashed 1px #9692B0;
-}
-
-.tovar_pamit_memory {
-    width: 797px;
+.like img {
+    width: 22px;
     height: 20px;
+}
+
+.like p, .dislike p {
+    color: #5C596D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.dislike {
     display: flex;
-    margin-top: 30px;
+    align-items: center;
+    gap: 8px;
+    width: 48px;
+    height: 24px;
 }
 
-.tovar_pamit_memory h1 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #9692B0;
+.dislike img {
+    width: 22px;
+    height: 20px;
+    margin-top: 7px;
 }
 
-.tovar_pamit_memory p {
-    width: 250px;
-    border-bottom: dashed 1px #9692B0;
-}
 
-.tovar_pamit_memory h2 {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1D1A2F;
-}
+
+
+
 
 
 
